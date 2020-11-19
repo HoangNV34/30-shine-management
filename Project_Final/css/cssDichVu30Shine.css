@@ -1,0 +1,42 @@
+﻿#item-service span {
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#item-service img {
+    float: right;
+}
+
+#item-service {
+    margin-top: 20px;
+    border: 1px solid #000000;
+    background-color: yellow;
+    padding: 10px;
+}
+
+#Header-service {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-service a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#Service-Content {
+    margin-top: 30px;
+}
+
+#img-service {
+    padding: 5px;
+}
+
+    #img-service img {
+        width: 166.33px;
+        height: 379.91px;
+    }

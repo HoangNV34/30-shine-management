@@ -1,0 +1,11 @@
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\obj\Debug\Project_Final.csprojAssemblyReference.cache
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\obj\Debug\Project_Final.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\Project_Final.dll.config
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\Project_Final.dll
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\Project_Final.pdb
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\obj\Debug\Project_Final.dll
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\obj\Debug\Project_Final.pdb
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\itextsharp.dll
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\itextsharp.xmlworker.dll
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\bin\itextsharp.xml
+C:\Users\Hoang Minh\source\repos\Project_Final\Project_Final\obj\Debug\Project_Final.csproj.CopyComplete

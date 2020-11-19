@@ -1,0 +1,45 @@
+﻿body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.jumbotron {
+    background-color: antiquewhite;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.iconHome {
+    width: 50px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.Login-User {
+    height: auto;
+    float: right;
+    padding: 5px;
+    background-color: wheat;
+    margin-top: 7px;
+    color: black;
+    font-family: cursive;
+    border: 1px solid wheat;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .Login-User a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    .Login-User h3 {
+        font-size: 18px;
+    }
+
+

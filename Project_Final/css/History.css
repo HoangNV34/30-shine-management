@@ -1,0 +1,117 @@
+﻿.History{
+    display:grid;
+    grid-template-columns:20% 60% 20%;
+}
+.Content-History {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.email-phone {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap:1em;
+}
+.form-category{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.GioHang{
+    font-weight:bold;
+    font-size:18px;
+    display:inline-block;
+}
+.GioHang a{
+    display:inline-block;
+    text-decoration: none;
+}
+.form-add h2{
+    font-size:30px;
+}
+.form-category input{
+    border-radius:5px;
+
+}
+.submit-form {
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left ul li{
+    display:inline-block;
+}
+.left ul li:hover a {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 20px;
+        text-decoration: none;
+}
+#btnAdd{
+  padding:20px;   
+}
+.form-add{
+    padding-bottom:20px;
+    padding-top:20px;
+    margin-top:20px;
+}
+.form-add-history{
+    display:grid;
+    grid-template-columns:100%;
+    grid-row-gap:1em;
+    margin-top:30px;
+}
+.form-category {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+}
+.Content-Category {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.category-left {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.content-footer {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.header-history{
+    border-bottom:1px solid #808080;
+}
+.pay-header{
+    display:inline-block;
+    display:grid;
+    grid-template-columns:100%;
+}
+ .pay-header .left {
+        display: grid;
+        grid-template-columns: 50% 50%;
+ }
+..pay-header .right {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.pay-header{
+    border-bottom:1px solid #808080;
+}
+.SumMoney h3{
+    float:left;
+    font-size:18px;
+}
+.SumMoney h4 {
+    float: right;
+    font-size: 18px;
+}
+.SumMoney {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    background-color: #fff;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum","tnum";
+}
+.footer{
+    font-family: Helvetica;
+    font-weight: bold;
+    background: black;
+    font-size: 18px;
+}
+div{
+    display: block;
+}
+.footer .Content .left{
+    width: 50%;
+}
+
+.footer .Content .right{
+    width: 50%;
+}
+
+.footer .Content {
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
+    color: #eeeded;
+    display: flex;
+    justify-content: space-between; 
+}
+.left a{
+    font-size: 30px;
+    color: yellow;
+}
+

@@ -1,0 +1,122 @@
+﻿.wrapper{
+    display:grid;
+    grid-template-columns:10% 80% 10%;
+    grid-column-gap:1em;    
+    margin-bottom:2em;
+    margin-top:4em;
+
+}
+
+
+.title-01 {
+    text-align:center;
+}
+.list-image{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+   grid-column-gap: 10px;
+
+}
+.Section-2{
+    display:grid;
+    grid-template-columns:100%;
+}
+.Section-3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display:grid;
+    grid-template-columns:repeat(4,25%);
+    grid-column-gap: 20px;
+    
+}
+.item1 {
+   display:flex;
+}
+.item1-icon {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    margin: auto;
+}
+.item1-description{
+    padding-left:20px;
+    font-weight:bold;
+
+}
+.description-header{
+    font-size:18px;
+}
+.text-center{
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+}
+.div-tab {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.div-buttom {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-column-gap:2em;
+}
+.item1-button{
+        border:1px solid #000;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+}
+.item1-button a{
+    margin:30px;
+}
+
+.text-center{
+    padding-bottom:50px;
+}
+
+.load-category{
+    margin-top:20px;
+}
+.item-category {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 287px;
+    white-space: nowrap;
+}
+.price span{
+    color:red;
+}
+.price s{
+    color: #666666;
+    font-size:14px;
+    text-decoration: line-through;
+}
+.price{
+    font-size:18px;
+    padding-left:80px;
+}
+.item-image-description{
+    width:287px;
+    height:287px;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.Section-5 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-column-gap:2em;
+}

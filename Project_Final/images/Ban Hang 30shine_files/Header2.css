@@ -1,0 +1,30 @@
+﻿
+body {
+    position: relative;
+    line-height: normal !important;
+}
+
+
+
+.header-top{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.phone-icon{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.header-list{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.header-list ul li{
+    float: left;
+    list-style: none;
+}
+
+
+

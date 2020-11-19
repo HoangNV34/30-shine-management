@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.Master.cs" Inherits="Project_Final.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>30 30SHINE</title>
+        <link rel="stylesheet" type="text/css" href="css/cssHeader.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"/>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/cssHeader.css"/>
+        <link rel="stylesheet" type="text/css" href="css/cssTrangChu.css"/>
+       <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--Tile-->
+       <div >
+            <a href="#TrangChu">
+                <img src="https://storage.30shine.com/20191002_tuyendung_w.jpg" style="width:100%;height:auto;" alt="iconHeader"/>
+            </a>
+        </div>
+        <div class="jumbotron text-center" style="margin-bottom:1px" id="header" >
+            <img src="https://storage.30shine.com/ResourceWeb/data/images/Trangchu/logo.png" style="width: 211px;height: 130px ">
+        </div>   
+
+
+        <!--menu -->   
+                
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a href="home" class="iconHome" >
+                <i class="fas fa-home" ></i>
+            </a>
+            <a href="#Phone" class="iconHome">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a class="navbar-brand " href="Home.aspx">TRANG CHỦ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>           
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav"  id="navarbar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="DichVu.aspx">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.aspx">ĐẶT LỊCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BanHang.aspx">BÁN HÀNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown" style="padding-top: 10px;" id="header-introduce">
+                            <a class="nav-link dropdown-toggle" href="listNhomToc" type="" data-toggle="dropdown">THAM KHẢO</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#Quatity">Quality</a></li>
+                                <li><a href="#dichvu.jsp">Service</a></li>
+                                <li><a href="#Danhgia">Rate From Customer</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lichsu">LỊCH SỬ CẮT TÓC</a>
+                    </li> 
+                    <li>
+                         <%  Project_Final.entity.Account ac = (Project_Final.entity.Account)Session["account"]; %>
+                        <% if (ac != null)
+                            { %>
+                            Hello : <%= ac.UserName %>
+                        <% }
+                                              else
+                                              { %>
+                        <h3>Xin Please Dang Nhap Lai</h3>
+                    <% } %>
+                    </li>
+                </ul>
+            
+
+            </div>  
+        </nav>
+
+
+                   
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        <!--footer-->
+        <div class="footer">
+        
+        <div class="Content">
+        <div class="left">
+            <span>CONG TY CO PHAN TMDV 30SHINE</span></br>
+            <span>82 Tran Dai Nghia, P.Dong Tam,Q.Hai Ba Trung,HN</span></br>
+            <span>Số giấy chứng nhận kinh doanh: 010.7467.693 </span></br>
+            <span>Ngày cấp: 08/06/2016</span></br>
+            <span>Nơi cấp: Sở kế hoạch đầu tư TP Hà Nội</span></br>
+            <a href="" >Chính sách bảo mật thông tin</a></br>
+            <span class="time">Giờ phục vụ 8.30 - 21.30 (kể cả thứ 7, CN)</span></br>
+            <span class="time" style="style="color: rgb(255, 255, 255);">Hotline góp ý chất lượng Dịch vụ:</span></br>
+            <div class="phone">
+                <img src="https://storage.30shine.com/ResourceWeb/data/images/iconPhone.png"/>
+            </div>
+            </div>
+            <div class="right">
+                <div class="logo">
+                    <img class="icon1" src="https://storage.30shine.com/ResourceWeb/data/images/congthuongicon.png"/>
+                    <img class="icon1" src="https://images.dmca.com/Badges/dmca_protected_26_120.png?ID=1e720659-fbd3-461e-858a-89ef9307260a"/>
+                </div>
+                <span>Trải nghiệm đặt lịch nhanh chóng </span>
+                <span>và nhiều tiện ích khác với ứng dụng 30Shine</span>
+                <div class="icon">
+                     <img  src="https://storage.30shine.com/ResourceWeb/data/images/icon-store1.png" style="height:50px;main-right:10px;"/>
+                      <img  src="https://storage.30shine.com/ResourceWeb/data/images/icon-store.png" style="height:50px;"/>
+                </div>
+                <span>Chấp nhận thanh toán</span>
+                <div class="visa-card">
+                     <img  src="https://storage.30shine.com/ResourceWeb/data/images/Trangchu/visa.png" style="height:50px;main-right:10px;"/>
+                      <img  src="https://storage.30shine.com/ResourceWeb/data/images/icon-store.png" style="height:50px;"/>
+                </div>
+                <span>
+                 Copyright Nguyen Van Hoang, Inc. All Rights Reserved
+                </span>
+            </div>
+        </div>
+           
+        
+        </div>
+    </form>
+</body>
+</html>

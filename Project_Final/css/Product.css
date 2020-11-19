@@ -1,0 +1,112 @@
+﻿.Product-Header img{
+    width:100%;
+    height:auto;
+}
+.Product-Content{
+    display:grid;
+    grid-template-columns:60% 40%;
+    
+}
+.Product-Content ul{
+    float:left;
+    position:relative;
+}
+.Product-Content ul li {
+    display:inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size:18px;
+    font-weight:bold;
+}
+.Category {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap:2em;
+}
+.category-content-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+}
+.Category-quantity{
+    font-size:18px;
+    display:inline-block;
+}
+.Category-footer {
+    margin-top:25px;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    font-size:25px;
+    font-weight:bold;
+    color:#000000;
+}
+.Header-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color:#ff0000;
+}
+.Header-content s{
+    font-size:16px;
+   text-decoration:line-through;
+   color:#000000;
+}
+.Category-quantity {
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    font-size: 25px;
+}
+.Category-list-image {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.image{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:2em;
+}
+.item-image img{
+    width:150px;
+    height:150px;
+}
+.Category-content-desciption {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.left ul{
+    float:left;
+    position:relative;
+}
+..left ul li{
+    display:inline-block;
+    list-style:none;
+}
+.muahang{
+    font-size:30px;
+    padding:20px;
+}
+.content-main-dd ul li {
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 18px;
+    font-weight: bold;
+}
+.desciption-content{
+    font-size:50px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.description-footer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left:20px;
+    padding-left:20px;
+}
+.footer-content-description{
+    font-size:18px;
+    font-weight:bold;
+}
